@@ -1,0 +1,10 @@
+{
+  "extends": [
+    "rallycoding",
+  ],
+  "rules": {
+    "react/require-extension": "off",
+    "react/no-multi-comp": "off",
+    "eol-last": "off"
+  }
+}
