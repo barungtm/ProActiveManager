@@ -5,7 +5,7 @@ import {
 } from 'react-native';
 
 const Header = (props) => {
-    const {textStyle, viewStyle} = styles;
+    const { textStyle, viewStyle } = styles;
     return (
         <View style={viewStyle}>
             <Text style={textStyle}>{props.headerText}</Text>
@@ -25,11 +25,15 @@ const styles = {
         shadowOpacity: 0.5,
         elevation: 2,
         position: 'relative',
-        color: '#00aeef'
+        color: '#00aeef',
+        marginBottom: 3,
     },
     textStyle: {
         fontSize: 25,
         color: '#00aeef'
+    },
+    listItem: {
+        padding: 10,
     }
 };
 

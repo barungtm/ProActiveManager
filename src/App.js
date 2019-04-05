@@ -5,13 +5,12 @@ import Projects from './components/Projects';
 
 
 const App = () => (
-    <View>
+    <View style={{ flex: 1 }}>
         <Header headerText={'ProActive Manager'} />
-        <Projects/>
+        <Projects />
     </View>
 
 
 );
-
 export default App;
 
