@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, Text, Image } from 'react-native';
+import { View, Text, Image, Linking } from 'react-native';
 import Card from './Card';
 import CardSection from './CardSection';
 import Button from './Button';
@@ -25,7 +25,7 @@ const ProjectDetail = ({ project }) => {
                 <Image source={{ uri: imageUri }} style={styles.image} />
             </CardSection>
             <CardSection>
-                <Button />
+                <Button onPress={() => Linking.openURL(imageUri)} >Click Me</Button>
             </CardSection>
 
         </Card>
